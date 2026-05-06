@@ -2,7 +2,7 @@
 
 A Tampermonkey userscript that exports every email in mainstream (Inbox, Sent, etc) Outlook folders as `.eml` files, bundled into ZIPs. Works on Outlook Web (for tenants/orgs).
 
-[![Install with Tampermonkey](https://img.shields.io/badge/Install%20with-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://raw.githubusercontent.com/nicholasyoannou/outlook-web-email-exporter/main/outlook_web_email_exporter.user.js)
+[![Install with Tampermonkey](https://img.shields.io/badge/Install%20with-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://raw.githubusercontent.com/nicholasyoannou/outlook-web-email-exporter/refs/heads/main/outlook_web_email_exporter.js)
 
 Created and tested via Microsoft 365 Outlook (outlook.cloud.microsoft) to export emails in .EML format for the purpose of migration to Google Workspace due to personal recurring authentication problems with M365; this script is just a general exporter, though, and is general purpose. This script
 requires you to be logged in on Outlook for Web, and uses the built-in export feature (via Right click individual mail > Download as > .EML), scaled to the entire inbox. This _hasn't_ been tested with ordinary Outlook (outlook.live.com), only MS365 Outlook, so no promises in that regard.
@@ -40,7 +40,7 @@ After successful export, importing the .EML files to your new inbox can be done 
 
 Click the button at the top of this page, or click below:
 
-[![Install with Tampermonkey](https://img.shields.io/badge/Install%20with-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://raw.githubusercontent.com/nicholasyoannou/outlook-web-email-exporter/main/outlook_web_email_exporter.user.js)
+[![Install with Tampermonkey](https://img.shields.io/badge/Install%20with-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://raw.githubusercontent.com/nicholasyoannou/outlook-web-email-exporter/refs/heads/main/outlook_web_email_exporter.js)
 
 Tampermonkey will open an install confirmation dialog. Click **Install**.
 
